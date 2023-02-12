@@ -1,0 +1,67 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 143.1rem;
+}.about_container {
+  box-sizing: border-box;
+  padding: 4.6rem 13.6rem 16.7rem 7rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1d2bd;
+}
+.about_container .about-us {
+  margin-bottom: 5.2rem;
+  font-size: 12.5rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Kaushan Script, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about_container .about_us {
+  width: 100%;
+  height: 57.7rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.about_container .about_us .about_us_image {
+  width: 57.8rem;
+  height: 57.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.about_container .about_us .about_us_about_us {
+  box-sizing: border-box;
+  padding: 9.9rem 1.55rem 13rem 1.65rem;
+  width: 64.7rem;
+  height: 100%;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.about_container .about_us .about_us_about_us .about_us_review {
+  max-width: 61.5rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.2425;
+  color: #000000;
+  font-family: Kumbh Sans, 'Source Sans Pro';
+}

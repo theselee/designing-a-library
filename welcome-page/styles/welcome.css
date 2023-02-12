@@ -1,0 +1,324 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 143.5rem;
+}.desktop-1 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/background.png');
+  background-color: #ffffff;
+}
+.desktop-1 .auto-group-3yfy-X4E {
+  box-sizing: border-box;
+  padding: 3.5rem 5.5rem 3.3rem 3.4rem;
+  width: 144rem;
+  height: 14rem;
+  display: flex;
+  align-items: center;
+  background-color: #b5a396;
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-3yfy-X4E .auto-group-6uq3-Vog {
+  margin: 2.4rem 51.1rem 2.5rem 0rem;
+  height: calc(100% - 4.9rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-3yfy-X4E .auto-group-6uq3-Vog .line-1-kjc {
+  margin-bottom: 1.1rem;
+  width: 7rem;
+  height: 0;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-3yfy-X4E .auto-group-6uq3-Vog .line-3-s3Y {
+  margin-bottom: 1.2rem;
+  width: 7rem;
+  height: 0;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-3yfy-X4E .auto-group-6uq3-Vog .line-2-qea {
+  width: 7rem;
+  height: 0;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-3yfy-X4E .auto-group-pzab-nJv {
+  margin: 0.2rem 3rem 0rem 0rem;
+  width: 16rem;
+  height: 7rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.22;
+  color: #000000;
+  font-family: Mate SC, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2e7e0;
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-3yfy-X4E .auto-group-x5xj-8XC {
+  margin: 0.2rem 3.5rem 0rem 0rem;
+  width: 17.5rem;
+  height: 7rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.22;
+  color: #000000;
+  font-family: Mate SC, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2e7e0;
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-3yfy-X4E .auto-group-rc1m-ZMc {
+  margin: 0rem 3.5rem 0.2rem 0rem;
+  width: 17.5rem;
+  height: 7rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.22;
+  color: #000000;
+  font-family: Mate SC, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2e7e0;
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-3yfy-X4E .auto-group-pjgb-Q7L {
+  margin-top: 0.2rem;
+  width: 16rem;
+  height: 7rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.22;
+  color: #000000;
+  font-family: Mate SC, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2e7e0;
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-kmur-1sp {
+  box-sizing: border-box;
+  padding: 1.9rem 6.8rem 6.7rem 9.3rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-vhbd-tgi {
+  margin: 0rem 24.1rem 1.7rem 18.7rem;
+  box-sizing: border-box;
+  padding: 0.9rem 2.3rem 0.5rem 3.5rem;
+  width: calc(100% - 42.8rem);
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 3rem;
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-vhbd-tgi .line-4-8b4 {
+  margin: 0rem 1rem 0.6rem 0rem;
+  width: 0.2rem;
+  height: 3.5rem;
+  background-color: rgba(0, 0, 0, 0.6600000262);
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-vhbd-tgi .search {
+  margin: 0.3rem 60.6rem 0rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.605;
+  color: #bcaeae;
+  font-family: Khula, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-vhbd-tgi .image-5-K9k {
+  margin-bottom: 0.5rem;
+  width: 5.2rem;
+  height: 5rem;
+  position: relative;
+  background-size: 228.571% 164.948%;
+  background-position: -3.219rem -1.4175rem;
+  background-image: url('../assets/Magnifying\ glass\ search\ icon.png');
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 {
+  width: 100%;
+  height: 70rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 .rectangle-3-3jx {
+  width: 120.2rem;
+  height: 70rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #f1d2bd;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 .rectangle-4-9Y6 {
+  width: 15.4rem;
+  height: 23.8rem;
+  position: relative;
+  left: 59.3rem;
+  top: 14.2rem;
+  background-size: 278.409% 121.287%;
+  background-position: -13.6792rem -3.299rem;
+  background-image: url('../assets/Becoming\ book.png');
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 .rectangle-5-a7c {
+  width: 15.4rem;
+  height: 23.8rem;
+  position: absolute;
+  left: 99.9rem;
+  top: 42.7rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 .rectangle-8-scW {
+  width: 15.4rem;
+  height: 23.8rem;
+  position: absolute;
+  left: 59.3rem;
+  top: 42.7rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 .rectangle-6-kwC {
+  width: 15.4rem;
+  height: 23.8rem;
+  position: absolute;
+  left: 99.9rem;
+  top: 14.7rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 .rectangle-7-Fd4 {
+  width: 15.4rem;
+  height: 23.8rem;
+  position: absolute;
+  left: 79.6rem;
+  top: 14.8rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 .rectangle-9-nst {
+  width: 15.4rem;
+  height: 23.8rem;
+  position: absolute;
+  left: 80.3rem;
+  top: 42.7rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 .welcome-6ta {
+  width: 44.7rem;
+  height: 18.2rem;
+  position: absolute;
+  left: 4.1rem;
+  top: 2.6rem;
+  font-size: 12.5rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Kaushan Script, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 .rectangle-13-9rr {
+  width: 26.5rem;
+  height: 7rem;
+  position: absolute;
+  left: 16.7rem;
+  top: 56.1rem;
+  background-color: #ffffff;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 .sacred-wisdom-is-a-black-owned-virtual-library-that-offers-and-showcases-a-full-range-of-black-authors-from-a-variety-of-genres-TMk {
+  width: 52rem;
+  height: 16.1rem;
+  position: absolute;
+  left: 6.5rem;
+  top: 21.8rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Kokoro, 'Source Sans Pro';
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 .sacred-wisdom-is-a-black-owned-virtual-library-that-offers-and-showcases-a-full-range-of-black-authors-from-a-variety-of-genres-register-now-and-get-access-to-a-free-ebook-eh8 {
+  width: 52rem;
+  height: 20.2rem;
+  position: absolute;
+  left: 6.5rem;
+  top: 21.8rem;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: Kokoro, 'Source Sans Pro';
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 .register-now-EvE {
+  width: 20rem;
+  height: 4rem;
+  position: absolute;
+  left: 19.9rem;
+  top: 57.4rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.2425;
+  color: #000000;
+  font-family: Kumbh Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-1 .auto-group-kmur-1sp .auto-group-2695-wB8 .new-releases-gGS {
+  width: 25.8rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 77.6rem;
+  top: 5.3rem;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.365;
+  color: #000000;
+  font-family: Manrope, 'Source Sans Pro';
+  white-space: nowrap;
+}

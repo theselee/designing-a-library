@@ -1,0 +1,755 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 143.5rem;
+}.book-listing {
+  box-sizing: border-box;
+  padding: 3.6rem 3.5rem 7rem 3.5rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1d2bd;
+}
+.book-listing .contemporary-black-authors {
+  margin: 0rem 0rem 5rem 1.5rem;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Kaushan Script, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.book-listing .book_container {
+  margin-bottom: 3.2rem;
+  width: 100%;
+  height: 38.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.book-listing .book_container .book_container_box {
+  box-sizing: border-box;
+  padding-top: 0.1rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.book-listing .book_container .book_container_box .book_container_box_image {
+  margin-right: 0.2rem;
+  box-sizing: border-box;
+  padding: 1.7rem 1.1rem 1.7rem 1rem;
+  height: 100%;
+  background-color: #191818;
+  flex-shrink: 0;
+}
+.book-listing .book_container .book_container_box .book_container_box_image .james_fav_icon {
+  width: 4.9rem;
+  height: 5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.book-listing .book_container .book_container_box .deacon_king {
+  margin-right: 3.3rem;
+  box-sizing: border-box;
+  padding: 0rem 0.2rem 0rem 3.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+}
+.book-listing .book_container .book_container_box .deacon_king .deacon-king-kong_icon {
+  margin-right: 2.9rem;
+  width: 20rem;
+  height: 32.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.book-listing .book_container .book_container_box .deacon_king .deacon_king_container {
+  margin-bottom: 2.6rem;
+  width: 32.9rem;
+  flex-shrink: 0;
+}
+.book-listing .book_container .book_container_box .deacon_king .deacon_king_container .deacon_king_kong {
+  margin: 0rem 0rem 0.8rem 0.4rem;
+  width: calc(100% - 0.4rem);
+  display: flex;
+  align-items: flex-start;
+}
+.book-listing .book_container .book_container_box .deacon_king .deacon_king_container .deacon_king_kong .deacon_king_kong_book {
+  margin: 1.4rem 7.6rem 0rem 0rem;
+  width: 21.5rem;
+  height: 15.3rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.book-listing .book_container .book_container_box .deacon_king .deacon_king_container .deacon_king_kong .deacon_king_kong_book .deacon-king-kong {
+  width: 21.5rem;
+  height: 11.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Kaushan Script, 'Source Sans Pro';
+}
+.book-listing .book_container .book_container_box .deacon_king .deacon_king_container .deacon_king_kong .deacon_king_kong_book .by-james-mcbride {
+  width: 19.3rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 0;
+  top: 11.6rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+
+.book-listing .book_container .book_container_box .deacon_king .deacon_king_container .deacon_king_kong .deacon_king_kong_book .by-james-mcbride .by-james-mcbride-sub-1 {
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+}
+.book-listing .book_container .book_container_box .deacon_king .deacon_king_container .deacon_king_kong .deacon_king_kong_book .line-1-eYr {
+  width: 16.6rem;
+  height: 0;
+  position: absolute;
+  left: 3.1rem;
+  top: 14rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.book-listing .book_container .book_container_box .deacon_king .deacon_king_container .deacon_king_kong .deacon_king_kong_book .line-3-mNa {
+  width: 16.6rem;
+  height: 0;
+  position: absolute;
+  left: 3.1rem;
+  top: 14rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.book-listing .book_container .book_container_box .deacon_king .deacon_king_container .deacon_king_kong .james_bookmark {
+  width: 3.4rem;
+  height: 6.4rem;
+  position: relative;
+  background-size: 208.98% 149.054%;
+  background-position: -1.7278rem -1.9563rem;
+  background-image: url('../assets/james-bookmark.png');
+  flex-shrink: 0;
+}
+.book-listing .book_container .book_container_box .deacon_king .deacon_king_container .from-james-mcbride {
+  max-width: 31.8rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+}
+.book-listing .book_container .book_container_box .fav_sub_icon_box {
+  box-sizing: border-box;
+  padding: 2rem 1rem 2rem 1.1rem;
+  height: 100%;
+  background-color: #191818;
+  flex-shrink: 0;
+}
+.book-listing .book_container .book_container_box .fav_sub_icon_box .image_mcbride {
+  width: 4.9rem;
+  height: 5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.book-listing .book_container .here_for_it_container {
+  width: 59.5rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.book-listing .book_container .here_for_it_container .here_for_it {
+  width: 59.5rem;
+  height: 38.5rem;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  background-color: #d9d9d9;
+}
+.book-listing .book_container .here_for_it_container .here_for_it_icon {
+  width: 20rem;
+  height: 32.7rem;
+  position: absolute;
+  left: 3.7rem;
+  top: 3rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.book-listing .book_container .here_for_it_container .here-for-it {
+  width: 17.5rem;
+  height: 5.9rem;
+  position: absolute;
+  left: 30.4rem;
+  top: 3rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Kaushan Script, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.book-listing .book_container .here_for_it_container .by-r-eric-thomas {
+  width: 19.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 30.35rem;
+  top: 9.2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+
+.book-listing .book_container .here_for_it_container .by-r-eric-thomas .by-r-eric-thomas-sub-1 {
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+}
+.book-listing .book_container .here_for_it_container .line-2-3aJ {
+  width: 16.6rem;
+  height: 0;
+  position: absolute;
+  left: 33.7rem;
+  top: 11.6rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.book-listing .book_container .here_for_it_container .from-r-eric-thomas {
+  width: 31.6rem;
+  height: 23.6rem;
+  position: absolute;
+  left: 27.4rem;
+  top: 13.8rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+}
+.book-listing .book_container .here_for_it_container .eric_bookmark {
+  width: 4.5rem;
+  height: 6.5rem;
+  position: relative;
+  left: 55rem;
+  top: 0;
+  background-size: 141.047% 100%;
+  background-position: -0.8926rem 0;
+  background-image: url('../assets/eric-bookmark.png');
+}
+.book-listing .black_girl_call_container {
+  margin-bottom: 3.5rem;
+  width: 100%;
+  height: 38.8rem;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.book-listing .black_girl_call_container .black_girl_call {
+  margin-right: 0.2rem;
+  box-sizing: border-box;
+  padding: 2.5rem 1rem;
+  height: 38.5rem;
+  background-color: #191818;
+  flex-shrink: 0;
+}
+.book-listing .black_girl_call_container .black_girl_call .black_girl_call_fav_icon {
+  width: 5rem;
+  height: 4.2rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.book-listing .black_girl_call_container .black_girl_call_book_container {
+  width: 59.5rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.book-listing .black_girl_call_container .black_girl_call_book_container .black_girl_call_book {
+  width: 59.5rem;
+  height: 38.5rem;
+  position: absolute;
+  left: 0;
+  top: 0.3rem;
+  background-color: #d9d9d9;
+}
+.book-listing .black_girl_call_container .black_girl_call_book_container .black_girl_call_book_icon {
+  width: 20rem;
+  height: 32.7rem;
+  position: absolute;
+  left: 3.3rem;
+  top: 4.2rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.book-listing .black_girl_call_container .black_girl_call_book_container .black-girl-call-home {
+  width: 17.4rem;
+  height: 11.7rem;
+  position: absolute;
+  left: 28.75rem;
+  top: 2.2rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Kaushan Script, 'Source Sans Pro';
+}
+.book-listing .black_girl_call_container .black_girl_call_book_container .by-jasmine-mans {
+  width: 18.6rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 28.25rem;
+  top: 14.4rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+
+.book-listing .black_girl_call_container .black_girl_call_book_container .by-jasmine-mans .by-jasmine-mans-sub-1 {
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+}
+.book-listing .black_girl_call_container .black_girl_call_book_container .line-4-pyg {
+  width: 16.6rem;
+  height: 0;
+  position: absolute;
+  left: 31.3rem;
+  top: 16.8rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.book-listing .black_girl_call_container .black_girl_call_book_container .from-jasmine-mans {
+  width: 30rem;
+  height: 10.5rem;
+  position: absolute;
+  left: 27.5rem;
+  top: 19.6rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+}
+.book-listing .black_girl_call_container .black_girl_call_book_container .jasmine_bookmark {
+  width: 4.5rem;
+  height: 6.5rem;
+  position: relative;
+  left: 54.8rem;
+  top: 0;
+  background-size: 141.047% 100%;
+  background-position: -0.8926rem 0;
+  background-image: url('../assets/jasmine-white-bookmark.png');
+}
+.book-listing .black_girl_call_container .how_beautiful_container {
+  box-sizing: border-box;
+  padding: 0.3rem 0rem 0rem 3.3rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.book-listing .black_girl_call_container .how_beautiful_container .how_beautiful_box {
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+  height: 100%;
+  background-color: #191818;
+  flex-shrink: 0;
+}
+.book-listing .black_girl_call_container .how_beautiful_container .how_beautiful_box .how_beautiful_fav_icon {
+  width: 5rem;
+  height: 4.2rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.book-listing .black_girl_call_container .how_beautiful_container .how_beautiful {
+  box-sizing: border-box;
+  padding-left: 3.3rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+}
+.book-listing .black_girl_call_container .how_beautiful_container .how_beautiful .how_beautiful_book {
+  margin: 2rem 4rem 0rem 0rem;
+  width: 20rem;
+  height: 32.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.book-listing .black_girl_call_container .how_beautiful_container .how_beautiful .how_beautiful_we_were_book_container {
+  margin-bottom: 3.5rem;
+  width: 32.2rem;
+  flex-shrink: 0;
+}
+.book-listing .black_girl_call_container .how_beautiful_container .how_beautiful .how_beautiful_we_were_book_container .how_beautiful_we_were_book {
+  margin: 0rem 0rem 1.5rem 0.3rem;
+  width: calc(100% - 0.3rem);
+  display: flex;
+  align-items: flex-start;
+}
+.book-listing .black_girl_call_container .how_beautiful_container .how_beautiful .how_beautiful_we_were_book_container .how_beautiful_we_were_book .how_beautiful_we_were {
+  margin: 2.5rem 4.6rem 0rem 0rem;
+  width: 22.8rem;
+  height: 15.3rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.book-listing .black_girl_call_container .how_beautiful_container .how_beautiful .how_beautiful_we_were_book_container .how_beautiful_we_were_book .how_beautiful_we_were .how-beautiful-we-were {
+  width: 22.8rem;
+  height: 11.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Kaushan Script, 'Source Sans Pro';
+}
+.book-listing .black_girl_call_container .how_beautiful_container .how_beautiful .how_beautiful_we_were_book_container .how_beautiful_we_were_book .how_beautiful_we_were .by-imbolo-mbue- {
+  width: 17.7rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 11.6rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+
+.book-listing .black_girl_call_container .how_beautiful_container .how_beautiful .how_beautiful_we_were_book_container .how_beautiful_we_were_book .how_beautiful_we_were .by-imbolo-mbue- .by-imbolo-mbue--sub-1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-color: black; 
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+}
+.book-listing .black_girl_call_container .how_beautiful_container .how_beautiful .how_beautiful_we_were_book_container .how_beautiful_we_were_book .how_beautiful_we_were .line-5-bcN {
+  width: 14rem;
+  height: 0;
+  position: absolute;
+  left: 6.2rem;
+  top: 14rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.book-listing .black_girl_call_container .how_beautiful_container .how_beautiful .how_beautiful_we_were_book_container .how_beautiful_we_were_book .imbolo_bookmark {
+  width: 4.5rem;
+  height: 6.5rem;
+  position: relative;
+  background-size: 141.047% 100%;
+  background-position: -0.8926rem 0;
+  background-image: url('../assets/imbolo-bookmark.png');
+  flex-shrink: 0;
+}
+.book-listing .black_girl_call_container .how_beautiful_container .how_beautiful .how_beautiful_we_were_book_container .from-imbolo-mbue {
+  max-width: 31.7rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+}
+.book-listing .moon_witch_container {
+  width: 100%;
+  height: 38.5rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.book-listing .moon_witch_container .moon_witch_book {
+  margin-right: 0.2rem;
+  box-sizing: border-box;
+  padding: 1rem 1.1rem 1rem 1rem;
+  height: 100%;
+  background-color: #191818;
+  flex-shrink: 0;
+}
+.book-listing .moon_witch_container .moon_witch_book .moon_witch_fav_icon {
+  width: 4.9rem;
+  height: 5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.book-listing .moon_witch_container .moon_witch_spider_king_container {
+  margin-right: 3.9rem;
+  box-sizing: border-box;
+  padding: 0.1rem 0.2rem 0.1rem 3.3rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+}
+.book-listing .moon_witch_container .moon_witch_spider_king_container .moon_witch_book_icon {
+  margin: 1.2rem 2.55rem 0rem 0rem;
+  width: 20rem;
+  height: 32.7rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.book-listing .moon_witch_container .moon_witch_spider_king_container .moon_witch_spider_king_box {
+  margin-bottom: 5.4rem;
+  width: 33.45rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.book-listing .moon_witch_container .moon_witch_spider_king_container .moon_witch_spider_king_box .moon_witch_spider_king {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.book-listing .moon_witch_container .moon_witch_spider_king_container .moon_witch_spider_king_box .moon_witch_spider_king .moon-witch-spider-king {
+  margin: 2.4rem 7.95rem 0rem 0rem;
+  max-width: 21rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Kaushan Script, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.book-listing .moon_witch_container .moon_witch_spider_king_container .moon_witch_spider_king_box .moon_witch_spider_king .marlon_bookmark {
+  width: 4.5rem;
+  height: 6.5rem;
+  position: relative;
+  background-size: 141.047% 100%;
+  background-position: -0.8926rem 0;
+  background-image: url('../assets/marlon-bookmark.png');
+  flex-shrink: 0;
+}
+.book-listing .moon_witch_container .moon_witch_spider_king_container .moon_witch_spider_king_box .by_marlon_james_container {
+  box-sizing: border-box;
+  padding: 0.5rem 1.1rem 0rem 0.55rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.book-listing .moon_witch_container .moon_witch_spider_king_container .moon_witch_spider_king_box .by_marlon_james_container .by_marlon_james {
+  margin: 0rem 0rem 1.5rem 0.85rem;
+  width: 19.25rem;
+  height: 3.7rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.book-listing .moon_witch_container .moon_witch_spider_king_container .moon_witch_spider_king_box .by_marlon_james_container .by_marlon_james .by-marlon-james {
+  width: 18.4rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+
+.book-listing .moon_witch_container .moon_witch_spider_king_container .moon_witch_spider_king_box .by_marlon_james_container .by_marlon_james .by-marlon-james .by-marlon-james-sub-1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+}
+.book-listing .moon_witch_container .moon_witch_spider_king_container .moon_witch_spider_king_box .by_marlon_james_container .by_marlon_james .line-6-UhQ {
+  width: 16.6rem;
+  height: 0;
+  position: absolute;
+  left: 2.65rem;
+  top: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.book-listing .moon_witch_container .moon_witch_spider_king_container .moon_witch_spider_king_box .by_marlon_james_container .from-marlon-james {
+  max-width: 31.8rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.book-listing .moon_witch_container .born_a_container {
+  width: 65.9rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.book-listing .moon_witch_container .born_a_container .born_a_ {
+  width: 59.5rem;
+  height: 38.5rem;
+  position: absolute;
+  left: 6.4rem;
+  top: 0;
+  background-color: #d9d9d9;
+}
+.book-listing .moon_witch_container .born_a_container .born_a_book_icon {
+  width: 20rem;
+  height: 32.7rem;
+  position: absolute;
+  left: 9.9rem;
+  top: 3.5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.book-listing .moon_witch_container .born_a_container .born-a-crime {
+  width: 12rem;
+  height: 11.7rem;
+  position: absolute;
+  left: 36.95rem;
+  top: 2.3rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Kaushan Script, 'Source Sans Pro';
+}
+.book-listing .moon_witch_container .born_a_container .by-trevor-noah {
+  width: 16.9rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 34.55rem;
+  top: 14.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+
+.book-listing .moon_witch_container .born_a_container .by-trevor-noah .by-trevor-noah-sub-1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-color: black; 
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+}
+
+.book-listing .moon_witch_container .born_a_container .trevor-review {
+  width: 31.9rem;
+  height: 13.1rem;
+  position: absolute;
+  left: 33rem;
+  top: 19.7rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4525;
+  color: #000000;
+  font-family: Karma, 'Source Sans Pro';
+}
+.book-listing .moon_witch_container .born_a_container .born_a_crime_container {
+  width: 7rem;
+  height: 38.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #191818;
+}
+.book-listing .moon_witch_container .born_a_container .trevor-bookmark {
+  width: 3.4rem;
+  height: 6.4rem;
+  position: relative;
+  left: 62.5rem;
+  top: 0.1rem;
+  background-size: 208.98% 149.054%;
+  background-position: -1.7278rem -1.9563rem;
+  background-image: url('../assets/trevor-bookmark.png');
+}
+.book-listing .moon_witch_container .born_a_container .born_a_crime_fav_icon {
+  width: 4.9rem;
+  height: 5rem;
+  position: absolute;
+  left: 1rem;
+  top: 1.5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
