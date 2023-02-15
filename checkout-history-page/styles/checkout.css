@@ -24,14 +24,14 @@ body {
   align-items: center;
   background-color: #f1d2bd;
 }
-.checkout .auto-group-bjnt-56S {
+.checkout .selection-container {
   margin-right: 3.65rem;
   width: 31.6rem;
   height: 101.2rem;
   position: relative;
   flex-shrink: 0;
 }
-.checkout .auto-group-bjnt-56S .refine {
+.checkout .selection-container .refine-container {
   width: 31.5rem;
   height: 101.2rem;
   position: absolute;
@@ -39,7 +39,7 @@ body {
   top: 0;
   background-color: #bcaeae;
 }
-.checkout .auto-group-bjnt-56S .refine-by {
+.checkout .selection-container .refine-by {
   width: 18rem;
   height: 4.8rem;
   position: absolute;
@@ -53,7 +53,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-bjnt-56S .line-1-6fk {
+.checkout .selection-container .line {
   width: 24.5rem;
   height: 0.2rem;
   position: absolute;
@@ -61,7 +61,7 @@ body {
   top: 10.4rem;
   background-color: #000000;
 }
-.checkout .auto-group-bjnt-56S .image-1-122 {
+.checkout .selection-container .check-available {
   width: 4.9rem;
   height: 5.1rem;
   position: absolute;
@@ -70,7 +70,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.checkout .auto-group-bjnt-56S .image-3-6pA {
+.checkout .selection-container .check-genre {
   width: 4.9rem;
   height: 5.1rem;
   position: absolute;
@@ -79,7 +79,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.checkout .auto-group-bjnt-56S .image-10-zee {
+.checkout .selection-container .check-language {
   width: 4.9rem;
   height: 5.1rem;
   position: absolute;
@@ -88,7 +88,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.checkout .auto-group-bjnt-56S .image-9-tk2 {
+.checkout .selection-container .check-comedy {
   width: 4.9rem;
   height: 5.1rem;
   position: absolute;
@@ -97,7 +97,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.checkout .auto-group-bjnt-56S .available-oMC {
+.checkout .selection-container .available {
   width: 12.1rem;
   height: 3.5rem;
   position: absolute;
@@ -111,7 +111,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-bjnt-56S .genre-GEn {
+.checkout .selection-container .genre {
   width: 7.8rem;
   height: 3.5rem;
   position: absolute;
@@ -125,7 +125,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-bjnt-56S .languages-93g {
+.checkout .selection-container .languages {
   width: 13.8rem;
   height: 3.5rem;
   position: absolute;
@@ -139,7 +139,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-bjnt-56S .fantasy-1bg {
+.checkout .selection-container .fantasy {
   width: 9rem;
   height: 3.5rem;
   position: absolute;
@@ -153,7 +153,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-bjnt-56S .biography-ghp {
+.checkout .selection-container .biography {
   width: 11.9rem;
   height: 3.5rem;
   position: absolute;
@@ -167,7 +167,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-bjnt-56S .comedy-mDU {
+.checkout .selection-container .comedy {
   width: 9.6rem;
   height: 3.5rem;
   position: absolute;
@@ -181,7 +181,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-bjnt-56S .image-11-3Rt {
+.checkout .selection-container .check-english {
   width: 4.9rem;
   height: 5.1rem;
   position: absolute;
@@ -190,7 +190,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.checkout .auto-group-bjnt-56S .english-9jp {
+.checkout .selection-container .english {
   width: 8.3rem;
   height: 3.5rem;
   position: absolute;
@@ -204,7 +204,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-bjnt-56S .mystery-RxE {
+.checkout .selection-container .mystery {
   width: 9.3rem;
   height: 3.5rem;
   position: absolute;
@@ -218,7 +218,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-bjnt-56S .science-fiction-WCz {
+.checkout .selection-container .science-fiction {
   width: 16.7rem;
   height: 3.5rem;
   position: absolute;
@@ -232,7 +232,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-bjnt-56S .all-in-the-library-3896-P1t {
+.checkout .selection-container .all-in-the-library {
   width: 20.9rem;
   height: 6.9rem;
   position: absolute;
@@ -245,7 +245,7 @@ body {
   color: #000000;
   font-family: Open Sans, 'Source Sans Pro';
 }
-.checkout .auto-group-bjnt-56S .image-2-F46 {
+.checkout .selection-container .empty-box-library {
   width: 3.8rem;
   height: 3.6rem;
   position: absolute;
@@ -254,7 +254,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.checkout .auto-group-bjnt-56S .image-5-M78 {
+.checkout .selection-container .empty-box-science-fiction {
   width: 3.8rem;
   height: 3.6rem;
   position: absolute;
@@ -263,7 +263,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.checkout .auto-group-bjnt-56S .image-6-rJn {
+.checkout .selection-container .empty-box-biography {
   width: 3.8rem;
   height: 3.6rem;
   position: absolute;
@@ -272,7 +272,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.checkout .auto-group-bjnt-56S .image-8-wLE {
+.checkout .selection-container .empty-box-mystery {
   width: 3.8rem;
   height: 3.6rem;
   position: absolute;
@@ -281,7 +281,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.checkout .auto-group-bjnt-56S .image-4-RFQ {
+.checkout .selection-container .empty-box-fantasy {
   width: 3.8rem;
   height: 3.6rem;
   position: absolute;
@@ -290,7 +290,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.checkout .auto-group-bjnt-56S .line-2-7e2 {
+.checkout .selection-container .line-inside-box-fantasy {
   width: 2.6rem;
   height: 0.15rem;
   position: absolute;
@@ -298,7 +298,7 @@ body {
   top: 44.5rem;
   background-color: #000000;
 }
-.checkout .auto-group-bjnt-56S .line-3-C9g {
+.checkout .selection-container .line-inside-box-science-fiction {
   width: 2.6rem;
   height: 0.15rem;
   position: absolute;
@@ -306,7 +306,7 @@ body {
   top: 49rem;
   background-color: #000000;
 }
-.checkout .auto-group-bjnt-56S .french-JTc {
+.checkout .selection-container .french {
   width: 8rem;
   height: 3.5rem;
   position: absolute;
@@ -320,7 +320,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-bjnt-56S .image-12-NiN {
+.checkout .selection-container .empty-box-french {
   width: 3.8rem;
   height: 3.6rem;
   position: absolute;
@@ -329,7 +329,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.checkout .auto-group-bjnt-56S .line-7-gDG {
+.checkout .selection-container .line-inside-box-french {
   width: 2.6rem;
   height: 0.15rem;
   position: absolute;
@@ -337,38 +337,8 @@ body {
   top: 87.2rem;
   background-color: #000000;
 }
-.checkout .auto-group-bjnt-56S .french-n1Q {
-  width: 8rem;
-  height: 3.5rem;
-  position: absolute;
-  left: 15.4rem;
-  top: 85rem;
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 400;
-  line-height: 1.3625;
-  color: #000000;
-  font-family: Open Sans, 'Source Sans Pro';
-  white-space: nowrap;
-}
-.checkout .auto-group-bjnt-56S .image-15-TNS {
-  width: 3.8rem;
-  height: 3.6rem;
-  position: absolute;
-  left: 11.1rem;
-  top: 85.4rem;
-  object-fit: cover;
-  vertical-align: top;
-}
-.checkout .auto-group-bjnt-56S .line-10-Myc {
-  width: 2.6rem;
-  height: 0.15rem;
-  position: absolute;
-  left: 11.7rem;
-  top: 87.2rem;
-  background-color: #000000;
-}
-.checkout .auto-group-bjnt-56S .spanish-58v {
+
+.checkout .selection-container .spanish {
   width: 9.2rem;
   height: 3.5rem;
   position: absolute;
@@ -382,7 +352,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-bjnt-56S .image-13-xTc {
+.checkout .selection-container .empty-box-spanish {
   width: 3.8rem;
   height: 3.6rem;
   position: absolute;
@@ -391,7 +361,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.checkout .auto-group-bjnt-56S .line-8-eLS {
+.checkout .selection-container .line-inside-box-spanish {
   width: 2.6rem;
   height: 0.15rem;
   position: absolute;
@@ -399,7 +369,7 @@ body {
   top: 91.8rem;
   background-color: #000000;
 }
-.checkout .auto-group-bjnt-56S .german-k8a {
+.checkout .selection-container .german {
   width: 9.5rem;
   height: 3.5rem;
   position: absolute;
@@ -413,7 +383,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-bjnt-56S .image-14-Axz {
+.checkout .selection-container .empty-box-german {
   width: 3.8rem;
   height: 3.6rem;
   position: absolute;
@@ -422,7 +392,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.checkout .auto-group-bjnt-56S .line-9-ssQ {
+.checkout .selection-container .line-inside-box-german {
   width: 2.6rem;
   height: 0.15rem;
   position: absolute;
@@ -430,7 +400,7 @@ body {
   top: 96.7rem;
   background-color: #000000;
 }
-.checkout .auto-group-bjnt-56S .line-4-nUa {
+.checkout .selection-container .line-inside-box-biography {
   width: 2.6rem;
   height: 0.15rem;
   position: absolute;
@@ -438,7 +408,7 @@ body {
   top: 53.4rem;
   background-color: #000000;
 }
-.checkout .auto-group-bjnt-56S .line-6-h5k {
+.checkout .selection-container .line-inside-box-mystery {
   width: 2.6rem;
   height: 0.15rem;
   position: absolute;
@@ -446,12 +416,12 @@ body {
   top: 62.6rem;
   background-color: #000000;
 }
-.checkout .auto-group-ghxd-bS2 {
+.checkout .checkout-history-container {
   margin-top: 0.7rem;
   width: 94.25rem;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .checkout-history-tg2 {
+.checkout .checkout-history-container .checkout-history {
   margin-bottom: 4.2rem;
   width: 100%;
   text-align: center;
@@ -462,12 +432,12 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-1a8w-nFc {
+.checkout .checkout-history-container .conjure-women-container {
   margin-bottom: 3.7rem;
   display: flex;
   align-items: flex-start;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-1a8w-nFc .item-1-Vfp {
+.checkout .checkout-history-container .conjure-women-container .item-1 {
   margin-right: 4.25rem;
   text-align: center;
   font-size: 4rem;
@@ -478,7 +448,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-1a8w-nFc .image-16-z6n {
+.checkout .checkout-history-container .conjure-women-container .conjure-women-book {
   margin: 0.4rem 2.85rem 0rem 0rem;
   width: 17.5rem;
   height: 27.9rem;
@@ -486,12 +456,12 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-1a8w-nFc .auto-group-11k3-fCv {
+.checkout .checkout-history-container .conjure-women-container .conjure-women-box {
   margin-top: 0.4rem;
   width: 39.15rem;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-1a8w-nFc .auto-group-11k3-fCv .conjure-women {
+.checkout .checkout-history-container .conjure-women-container .conjure-women-box .conjure-women {
   margin-bottom: 0.3rem;
   width: 100%;
   max-width: 19rem;
@@ -502,7 +472,7 @@ body {
   color: #000000;
   font-family: Kaushan Script, 'Source Sans Pro';
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-1a8w-nFc .auto-group-11k3-fCv .author_Afia {
+.checkout .checkout-history-container .conjure-women-container .conjure-women-box .author_Afia {
   margin-bottom: 5.3rem;
   width: 100%;
   text-align: center;
@@ -513,14 +483,14 @@ body {
   font-family: Karma, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-1a8w-nFc .auto-group-11k3-fCv .auto-group-ixyh-XuL {
+.checkout .checkout-history-container .conjure-women-container .conjure-women-box .place-on-hold-container {
   margin-left: 1.65rem;
   width: calc(100% - 1.65rem);
   height: 7rem;
   display: flex;
   align-items: center;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-1a8w-nFc .auto-group-11k3-fCv .auto-group-ixyh-XuL .favorite_icon {
+.checkout .checkout-history-container .conjure-women-container .conjure-women-box .place-on-hold-container .favorite_icon {
   margin: 1rem 4.5rem 0rem 0rem;
   width: 5rem;
   height: 4.2rem;
@@ -528,7 +498,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-1a8w-nFc .auto-group-11k3-fCv .auto-group-ixyh-XuL .place_on_hold {
+.checkout .checkout-history-container .conjure-women-container .conjure-women-box .place-on-hold-container .place_on_hold {
   width: 28rem;
   height: 100%;
   text-align: center;
@@ -544,13 +514,13 @@ body {
   background-color: #fffbfb;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-8b5y-XwG {
+.checkout .checkout-history-container .last-checkout-container {
   margin: 0rem 31.5rem 2.6rem 6.75rem;
   width: calc(100% - 38.25rem);
   display: flex;
   align-items: center;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-8b5y-XwG .last_checkout {
+.checkout .checkout-history-container .last-checkout-container .last_checkout {
   margin: 0.5rem 9rem 0rem 0rem;
   text-align: center;
   font-size: 2.5rem;
@@ -561,7 +531,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-8b5y-XwG .copies-available {
+.checkout .checkout-history-container .last-checkout-container .copies-available {
   margin-bottom: 0.5rem;
   text-align: center;
   font-size: 2.5rem;
@@ -572,18 +542,18 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .line-11-mDL {
+.checkout .checkout-history-container .line-checkout {
   margin: 0rem 0rem 9.7rem 6.75rem;
   width: 87.5rem;
   height: 0.3rem;
   background-color: #000000;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-fhpu-Tbx {
+.checkout .checkout-history-container .american-spy-container {
   margin: 0rem 0rem 4.5rem 0.55rem;
   display: flex;
   align-items: flex-start;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-fhpu-Tbx .item-2-mMk {
+.checkout .checkout-history-container .american-spy-container .item-2 {
   margin-right: 2.8rem;
   text-align: center;
   font-size: 4rem;
@@ -594,7 +564,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-fhpu-Tbx .american-spy_icon {
+.checkout .checkout-history-container .american-spy-container .american-spy_icon {
   margin: 0.7rem 2rem 0rem 0rem;
   width: 17.5rem;
   height: 27.8rem;
@@ -602,11 +572,11 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-fhpu-Tbx .auto-group-dyck-wvS {
+.checkout .checkout-history-container .american-spy-container .american-spy-box {
   width: 40rem;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-fhpu-Tbx .auto-group-dyck-wvS .american-spy {
+.checkout .checkout-history-container .american-spy-container .american-spy-box .american-spy {
   margin-bottom: 0.6rem;
   width: 100%;
   max-width: 21.5rem;
@@ -617,7 +587,7 @@ body {
   color: #000000;
   font-family: Kaushan Script, 'Source Sans Pro';
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-fhpu-Tbx .auto-group-dyck-wvS .author_Lauren {
+.checkout .checkout-history-container .american-spy-container .american-spy-box .author_Lauren {
   margin-bottom: 5.2rem;
   width: 100%;
   text-align: center;
@@ -628,13 +598,13 @@ body {
   font-family: Karma, 'Source Sans Pro';
   white-space: nowrap;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-fhpu-Tbx .auto-group-dyck-wvS .auto-group-zfzw-eiN {
+.checkout .checkout-history-container .american-spy-container .american-spy-box .american-spy-on-hold-container {
   margin-left: 2.5rem;
   width: calc(100% - 2.5rem);
   display: flex;
   align-items: flex-end;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-fhpu-Tbx .auto-group-dyck-wvS .auto-group-zfzw-eiN .favorite_add_icon {
+.checkout .checkout-history-container .american-spy-container .american-spy-box .american-spy-on-hold-container .favorite_add_icon {
   margin-right: 4.5rem;
   width: 5rem;
   height: 4.2rem;
@@ -642,7 +612,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .auto-group-fhpu-Tbx .auto-group-dyck-wvS .auto-group-zfzw-eiN .place_onhold {
+.checkout .checkout-history-container .american-spy-container .american-spy-box .american-spy-on-hold-container .american-spy-on-hold {
   margin-bottom: 0.2rem;
   width: 28rem;
   height: 7rem;
@@ -659,13 +629,13 @@ body {
   background-color: #fffbfb;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .info {
+.checkout .checkout-history-container .info {
   margin: 0rem 33.7rem 0rem 6.55rem;
   width: calc(100% - 40.25rem);
   display: flex;
   align-items: center;
 }
-.checkout .auto-group-ghxd-bS2 .info .last-checkout-on-9-7-2020-D2i {
+.checkout .checkout-history-container .info .american-spy-last-checkout {
   margin: 0rem 7rem 0.2rem 0rem;
   text-align: center;
   font-size: 2.5rem;
@@ -676,7 +646,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.checkout .auto-group-ghxd-bS2 .info .copies-available-54v {
+.checkout .checkout-history-container .info .american-spy-copies-available {
   margin-top: 0.2rem;
   text-align: center;
   font-size: 2.5rem;

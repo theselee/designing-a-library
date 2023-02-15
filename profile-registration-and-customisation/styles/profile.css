@@ -40,7 +40,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.profile_control .my-profile-content .image-1 {
+.profile_control .my-profile-content .question-mark {
   margin-top: 0.7rem;
   width: 4.5rem;
   height: 4.1rem;
@@ -65,14 +65,14 @@ body {
   vertical-align: top;
   padding: 19;
 }
-.profile_control .auto-group-xkgo-NMQ {
+.profile_control .registration-container {
   width: 100%;
   height: 91rem;
   display: flex;
   align-items: flex-start;
   padding: 50px 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ {
+.profile_control .registration-container .registration-box {
   margin-right: 14rem;
   width: 77rem;
   height: 100%;
@@ -82,7 +82,7 @@ body {
   background-color: #f3f3f3;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-okuz-bjx {
+.profile_control .registration-container .registration-box .contact {
   box-sizing: border-box;
   padding: 0.9rem 1.1rem 0.8rem 1.1rem;
   width: 100%;
@@ -96,7 +96,7 @@ body {
   background-color: #d9d9d9;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg {
+.profile_control .registration-container .registration-box .title-container {
   box-sizing: border-box;
   padding: 4.4rem 1.4rem 13.3rem 1.4rem;
   width: 100%;
@@ -104,7 +104,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-lsdv-KpN {
+.profile_control .registration-container .registration-box .title-container .title-box {
   margin: 0rem 51.1rem 5.7rem 0.3rem;
   width: calc(100% - 51.4rem);
   height: 5.2rem;
@@ -112,14 +112,14 @@ body {
   align-items: flex-end;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-lsdv-KpN .auto-group-v8md-bG6 {
+.profile_control .registration-container .registration-box .title-container .title-box .title-text {
   margin-right: 3.5rem;
   width: 8.8rem;
   height: 100%;
   position: relative;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-lsdv-KpN .auto-group-v8md-bG6 .title {
+.profile_control .registration-container .registration-box .title-container .title-box .title-text .title {
   width: 7.3rem;
   height: 3.5rem;
   position: absolute;
@@ -133,7 +133,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-lsdv-KpN .auto-group-v8md-bG6 .title-icon {
+.profile_control .registration-container .registration-box .title-container .title-box .title-text .title-icon {
   width: 1.8rem;
   height: 2.6rem;
   position: absolute;
@@ -142,14 +142,14 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-lsdv-KpN .dropdown {
+.profile_control .registration-container .registration-box .title-container .title-box .dropdown {
   margin-bottom: 0.1rem;
   width: 10.5rem;
   height: 4.2rem;
   position: relative;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-lsdv-KpN .dropdown .rectangle-11-B9k {
+.profile_control .registration-container .registration-box .title-container .title-box .dropdown .dropdown-box {
   width: 10.5rem;
   height: 3.5rem;
   position: absolute;
@@ -157,7 +157,7 @@ body {
   top: 0;
   background-color: #d9d9d9;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-lsdv-KpN .dropdown .image-3 {
+.profile_control .registration-container .registration-box .title-container .title-box .dropdown .dropdown-icon {
   width: 3.7rem;
   height: 4.2rem;
   position: absolute;
@@ -166,14 +166,14 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-jayu-bDU {
+.profile_control .registration-container .registration-box .title-container .name-container {
   margin-bottom: 5.4rem;
   height: 4.8rem;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-jayu-bDU .name_icon {
+.profile_control .registration-container .registration-box .title-container .name-container .name_icon {
   margin-right: 0.3rem;
   width: 1.8rem;
   height: 2.6rem;
@@ -181,7 +181,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-jayu-bDU .name {
+.profile_control .registration-container .registration-box .title-container .name-container .name {
   margin: 1.3rem 2.2rem 0rem 0rem;
   text-align: center;
   font-size: 2.5rem;
@@ -192,7 +192,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-jayu-bDU .auto-group-bfkt-R62 {
+.profile_control .registration-container .registration-box .title-container .name-container .name-text {
   margin: 0.5rem 0rem 0.8rem 0rem;
   width: 31.5rem;
   height: calc(100% - 1.3rem);
@@ -209,13 +209,13 @@ body {
   background-color: #d9d9d9;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-jm2o-5RU {
+.profile_control .registration-container .registration-box .title-container .username-container {
   margin: 0rem 0rem 6.2rem 0.3rem;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-jm2o-5RU .username_icon {
+.profile_control .registration-container .registration-box .title-container .username-container .username_icon {
   margin-bottom: 2.5rem;
   width: 1.8rem;
   height: 2.6rem;
@@ -223,7 +223,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-jm2o-5RU .username {
+.profile_control .registration-container .registration-box .title-container .username-container .username {
   margin: 1.6rem 2.9rem 0rem 0rem;
   text-align: center;
   font-size: 2.5rem;
@@ -234,13 +234,13 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-jm2o-5RU .rectangle-12-kvv {
+.profile_control .registration-container .registration-box .title-container .username-container .username-box {
   width: 23.3rem;
   height: 3.5rem;
   background-color: #d9d9d9;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-8dfv-sEr {
+.profile_control .registration-container .registration-box .title-container .dob-container {
   margin: 0rem 40.4rem 6.1rem 0.3rem;
   width: calc(100% - 40.7rem);
   height: 4.4rem;
@@ -248,14 +248,14 @@ body {
   align-items: flex-start;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-8dfv-sEr .auto-group-6vpo-Ybt {
+.profile_control .registration-container .registration-box .title-container .dob-container .dob-text {
   margin-right: 3.3rem;
   width: 9.2rem;
   height: 100%;
   position: relative;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-8dfv-sEr .auto-group-6vpo-Ybt .dob {
+.profile_control .registration-container .registration-box .title-container .dob-container .dob-text .dob {
   width: 7.7rem;
   height: 3.5rem;
   position: absolute;
@@ -269,7 +269,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-8dfv-sEr .auto-group-6vpo-Ybt .dob_icon {
+.profile_control .registration-container .registration-box .title-container .dob-container .dob-text .dob_icon {
   width: 1.8rem;
   height: 2.6rem;
   position: absolute;
@@ -278,7 +278,7 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-8dfv-sEr .auto-group-4ubr-md4 {
+.profile_control .registration-container .registration-box .title-container .dob-container .dob-box {
   width: 21rem;
   height: 3.5rem;
   text-align: center;
@@ -294,20 +294,20 @@ body {
   background-color: #d9d9d9;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-gns1-q78 {
+.profile_control .registration-container .registration-box .title-container .email-container {
   margin: 0rem 0rem 6.2rem 0.3rem;
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-gns1-q78 .email-address_icon {
+.profile_control .registration-container .registration-box .title-container .email-container .email-address_icon {
   width: 1.8rem;
   height: 2.6rem;
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-gns1-q78 .email-address {
+.profile_control .registration-container .registration-box .title-container .email-container .email-address {
   margin: 0.8rem 4.1rem 0rem 0rem;
   text-align: center;
   font-size: 2.5rem;
@@ -318,27 +318,27 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-gns1-q78 .rectangle-13-XeA {
+.profile_control .registration-container .registration-box .title-container .email-container .email-box {
   width: 28rem;
   height: 3.5rem;
   background-color: #d9d9d9;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-8hdh-3cW {
+.profile_control .registration-container .registration-box .title-container .password-container {
   margin: 0rem 26.6rem 6.3rem 0.3rem;
   width: calc(100% - 26.9rem);
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-8hdh-3cW .auto-group-ccr3-YZG {
+.profile_control .registration-container .registration-box .title-container .password-container .password-text {
   margin: 0.5rem 3.1rem 0rem 0rem;
   width: 16.2rem;
   height: 3.8rem;
   position: relative;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-8hdh-3cW .auto-group-ccr3-YZG .password {
+.profile_control .registration-container .registration-box .title-container .password-container .password-text .password {
   width: 14.7rem;
   height: 3.5rem;
   position: absolute;
@@ -352,7 +352,7 @@ body {
   font-family: Open Sans, 'Source Sans Pro';
   white-space: nowrap;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-8hdh-3cW .auto-group-ccr3-YZG .password_icon {
+.profile_control .registration-container .registration-box .title-container .password-container .password-text .password_icon {
   width: 1.8rem;
   height: 2.6rem;
   position: absolute;
@@ -361,20 +361,20 @@ body {
   object-fit: cover;
   vertical-align: top;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-8hdh-3cW .rectangle-14-CGS {
+.profile_control .registration-container .registration-box .title-container .password-container .password-box {
   width: 28rem;
   height: 3.5rem;
   background-color: #d9d9d9;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-j7no-tf4 {
+.profile_control .registration-container .registration-box .title-container .re-type-password-container {
   margin: 0rem 16.1rem 0rem 1.8rem;
   width: calc(100% - 17.9rem);
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-j7no-tf4 .re-type-password--ZmC {
+.profile_control .registration-container .registration-box .title-container .re-type-password-container .re-type-password--ZmC {
   margin: 0.6rem 3.1rem 0rem 0rem;
   text-align: center;
   font-size: 2.5rem;
@@ -385,14 +385,14 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-eta3-6YJ .auto-group-kagp-SVg .auto-group-j7no-tf4 .rectangle-15-4xr {
+.profile_control .registration-container .registration-box .title-container .re-type-password-container .re-type-password-box {
   margin-bottom: 0.6rem;
   width: 28rem;
   height: 3.5rem;
   background-color: #d9d9d9;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-gxko-9Dc {
+.profile_control .registration-container .your-picture-container {
   width: 35rem;
   align-items: center;
   display: flex;
@@ -400,7 +400,7 @@ body {
   background-color: #f3f3f3;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-gxko-9Dc .your-picture {
+.profile_control .registration-container .your-picture-container .your-picture {
   width: 100%;
   height: 7rem;
   text-align: center;
@@ -416,7 +416,7 @@ body {
   background-color: #d9d9d9;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-gxko-9Dc .auto-group-pw6w-JVp {
+.profile_control .registration-container .your-picture-container .upload-container {
   box-sizing: border-box;
   padding: 3.5rem 7rem 1.7rem 10.7rem;
   width: 100%;
@@ -425,7 +425,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-gxko-9Dc .auto-group-pw6w-JVp .user_icon {
+.profile_control .registration-container .your-picture-container .upload-container .user_icon {
   margin: 0rem 1.1rem 2.8rem 0rem;
   width: 11.4rem;
   height: 14rem;
@@ -433,7 +433,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.profile_control .auto-group-xkgo-NMQ .auto-group-gxko-9Dc .auto-group-pw6w-JVp .upload {
+.profile_control .registration-container .your-picture-container .upload-container .upload {
   width: 100%;
   height: 6rem;
   text-align: center;
